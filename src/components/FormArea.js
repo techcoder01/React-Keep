@@ -29,7 +29,7 @@ function FormArea({addNote}) {
     
     return (
     <div>
-            <Paper style={{ marginTop: '25px',margin: '10px 10%' , padding: '25px 50px'}}>
+            <Paper style={{margin: '10px 10%' , padding: '25px 50px'}}>
             <form>
                     <TextField
                         onChange={changeHandler}

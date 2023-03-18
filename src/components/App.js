@@ -31,8 +31,9 @@ function App() {
       {notes.map((note, index ) => (
         <Note id={index} delNote={delNote} title={note.title} content={note.content} />
       ))}
-      
-        <Footer/>
+      <div>
+      <Footer/>
+      </div>
     </div>
   )
 }
