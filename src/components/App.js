@@ -23,7 +23,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div style={{background: 'linear-gradient(to left bottom , rgb(110, 187, 232), rgb(183, 152, 240) , rgb(230, 224, 255))'}} >
       <Header />
       
       <FormArea addNote={addNote} />
@@ -31,9 +31,8 @@ function App() {
       {notes.map((note, index ) => (
         <Note id={index} delNote={delNote} title={note.title} content={note.content} />
       ))}
-      <div>
-      <Footer/>
-      </div>
+      
+        <Footer/>
     </div>
   )
 }

@@ -7,7 +7,7 @@ function Note({ title, content, id, delNote }) {
     delNote(id);
   }
   return (
-    <Paper style={{minWidth: "200px" , minHeight: "100px" , padding: "10px" , margin: "20px" , display: "inline-flex"}}>
+    <Paper style={{background: 'rgba(255, 255, 255, .3)', BoxShadow: '0 5px 10px rgba(0, 0, 0, .6)' , minWidth: "200px" , minHeight: "100px" , padding: "10px" , margin: "20px" , display: "inline-flex"}}>
         <div>
         <h1>{title}</h1>
         <p>{content}</p>
