@@ -1,8 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
 body {
     margin: 0;
     min-height: 100vh;
     font-family: "Open Sans", sans-serif;
     background: linear-gradient(to left bottom, rgb(110, 187, 232), rgb(183, 152, 240), rgb(230, 224, 255))
+}
+
+.notes-container {
+    min-height: 480px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
